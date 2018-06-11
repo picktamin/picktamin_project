@@ -1,0 +1,148 @@
+@charset "UTF-8";
+.main_footer {
+  overflow: hidden;
+  min-width: 1260px;
+  height: 445px;
+  background: #faf0e6;
+}
+
+.footer_wrap {
+  margin: 0 auto;
+  padding: 80px 0 45px;
+  width: 1200px;
+  height: 100%;
+  box-sizing: border-box;
+  background: #faf0e6;
+}
+
+.footer_contents {
+  width: 100%;
+  height: 280px;
+  color: #001931;
+}
+
+.footer_area1 {
+  margin-right: 100px;
+  float: left;
+  width: 270px;
+  height: 100%;
+  line-height: 215px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.footer_logo {
+  margin-top: 100px;
+  width: 270px;
+  height: 65px;
+  font-family: 'texgyreadventor-bold';
+  color: tomato;
+  font-size: 50px;
+  line-height: initial;
+}
+
+.footer_ment {
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  height: 15px;
+  line-height: 15px;
+  display: none;
+}
+
+.footer_area2 {
+  box-sizing: border-box;
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+  float: left;
+  width: 440px;
+  height: 100%;
+  text-align: center;
+}
+
+.footer_area2 ul {
+  display: inline-block;
+  margin: 0 auto 10px;
+}
+
+.footer_area2 ul li {
+  float: left;
+  list-style: none;
+  font-size: 13px;
+  vertical-align: top;
+}
+
+.footer_area2 ul li:hover a {
+  color: tomato;
+}
+
+.footer_area2 ul li:after {
+  content: 'ㅣ';
+  display: inline-block;
+  width: 15px;
+  height: 1px;
+  color: #001931;
+}
+
+.footer_area2 ul li:last-child:after {
+  display: none;
+  content: '';
+}
+
+.footer_area2 ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #001931;
+}
+
+.footer_area2 p {
+  margin-top: 10px;
+  color: #001931;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.copyright {
+  margin-top: 30px;
+  color: #001931;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer_area3 {
+  margin-left: 90px;
+  float: left;
+  width: 300px;
+  height: 100%;
+  text-align: center;
+  color: #faf0e6;
+  letter-spacing: 2px;
+  color: #001931;
+}
+
+.footer_area3 > div:nth-child(1) {
+  margin-top: 85px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer_area3 > div:nth-child(2) {
+  margin-top: 15px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.footer_area3 > div:nth-child(3) {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 10px;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+.area3_contents {
+  margin-top: 30px;
+}
+/*# sourceMappingURL=footer.css.map */
