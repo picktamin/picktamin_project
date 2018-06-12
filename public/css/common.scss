@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+/* 
+--------------------------------------------------
+한글 폰트(고딕): 본고딕, san-serif, kor/sans [ NotoSansCJKkr ] 
+--------------------------------------------------
+*/
+@font-face{
+	font-family:"NotoSans-Black";
+	src: url("../fonts/kor/sans/NotoSans-Black.woff2");
+}
+
+@font-face{
+	font-family:"NotoSans-Bold";
+	src: url("../fonts/kor/sans/NotoSans-Bold.woff2");
+}
+
+@font-face{
+	font-family:"NotoSans-DemiLight";
+	src: url("../fonts/kor/sans/NotoSans-DemiLight.woff2");
+}
+
+@font-face{
+	font-family:"NotoSans-Light";
+	src: url("../fonts/kor/sans/NotoSans-Light.woff2");
+}
+
+@font-face{
+	font-family:"NotoSans-Medium";
+	src: url("../fonts/kor/sans/NotoSans-Medium.woff2");
+}
+
+@font-face{
+	font-family:"NotoSans-Regular";
+	src: url("../fonts/kor/sans/NotoSans-Regular.woff2");
+}
+
+@font-face{
+	font-family:"NotoSans-Thin";
+	src: url("../fonts/kor/sans/NotoSans-Thin.woff2");
+}
+
+
+/* 
+--------------------------------------------------
+한글 폰트(명조): 본명조 serif, kor/serif [NotoSerifCJKkr] 
+--------------------------------------------------
+*/
+@font-face{
+	font-family: "NotoSerifCJKkr-Black";
+	src: url("../fonts/kor/serif/NotoSerifCJKkr-Black.woff");
+}
+
+@font-face{
+	font-family: "NotoSerifCJKkr-Bold";
+	src: url("../fonts/kor/serif/NotoSerifCJKkr-Bold.woff");
+}
+
+@font-face{
+	font-family: "NotoSerifCJKkr-ExtraLight";
+	src: url("../fonts/kor/serif/NotoSerifCJKkr-ExtraLight.woff");
+}
+
+@font-face{
+	font-family: "NotoSerifCJKkr-Light";
+	src: url("../fonts/kor/serif/NotoSerifCJKkr-Light.woff");
+}
+
+@font-face{
+	font-family: "NotoSerifCJKkr-Medium";
+	src: url("../fonts/kor/serif/NotoSerifCJKkr-Medium.woff");
+}
+
+@font-face{
+	font-family: "NotoSerifCJKkr-Regular";
+	src: url("../fonts/kor/serif/NotoSerifCJKkr-Regular.woff");
+}
+
+@font-face{
+	font-family: "NotoSerifCJKkr-SemiBold";
+	src: url("../fonts/kor/serif/NotoSerifCJKkr-SemiBold.woff");
+}
+
+/* 영문 폰트 [ texgyreadventor ] */
+@font-face{
+  font-family: "texgyreadventoxr-regular";
+  src: url("../fonts/eng/texgyreadventor-regular-webfont.woff");
+}
+
+@font-face{
+  font-family: "texgyreadventor-bolditalic";
+  src: url("../fonts/eng/texgyreadventor-bolditalic-webfont.woff");
+}
+
+@font-face{
+  font-family: "texgyreadventor-bold";
+  src: url("../fonts/eng/texgyreadventor-bold-webfont.woff");
+}
+
+@font-face{
+  font-family: "texgyreadventor-italic";
+  src: url("../fonts/eng/texgyreadventor-italic-webfont.woff");
+}
+
+/*---------------------------------*/
+
+@font-face{
+	font-family:"arita-light";
+	src:url('../fonts/arita-light.woff');
+}
+@font-face{
+	font-family:"arita-bold";
+	src:url('../fonts/arita-bold.woff');
+}
+
+@font-face{
+	font-family:"arita-medium";
+	src:url('../fonts/arita-medium.woff');
+}
+
+@font-face{
+	font-family:"arita-semibold";
+	src:url('../fonts/arita-semibold.woff');
+}
+
+@font-face{
+	font-family:"arita-thin";
+	src:url('../fonts/arita-thin.woff');
+}
+
+@font-face{
+	font-family:"arita-thin";
+	src:url('../fonts/arita-thin.woff');
+}
+
+@font-face{
+	font-family:"gill-bold";
+	src:url('../fonts/gill-bold.woff');
+}
+
+@font-face{
+	font-family:"gill-light";
+	src:url('../fonts/gill-light.woff');
+}
+
+@font-face{
+	font-family:"gill-medium";
+	src:url('../fonts/gill-medium.woff');
+}
+
+@font-face{
+	font-family:"gill-ultrabold";
+	src:url('../fonts/gill-ultrabold.woff');
+}
+
+@font-face{
+	font-family:"myriad-bold";
+	src:url('../fonts/myriad-bold.woff');
+}
+
+@font-face{
+	font-family:"myriad-regular";
+	src:url('../fonts/myriad-regular.woff');
+}
+
+@font-face{
+	font-family:"myriad-semibold";
+	src:url('../fonts/myriad-semibold.woff');
+}
+
+
+
+$mainColor :#001931;
+body{
+	font-family: "arita-medium";
+}
+body,ul,li,h1,h2,h3,h4,p{
+  margin: 0;
+  padding: 0;
+}
+
+.clear:after{
+  display: block;
+  content : '';
+  clear : both;
+}
