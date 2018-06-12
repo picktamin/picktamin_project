@@ -3373,11 +3373,11 @@ label.mini_text {
 }
 
 .category .category_title button.open {
-  background: url("../img/minus.png");
+  background: url("../img/itemlist/product_list_close.svg");
 }
 
 .category .category_title button.close {
-  background: url("../img/plus.png");
+  background: url("../img/itemlist/product_list_spread.svg");
 }
 
 .category .category_contents {
@@ -3473,10 +3473,11 @@ label.mini_text {
   /* 여긴 왜 135픽셀이 아닌 270px인가... 확인 필요.*/
   text-decoration: none;
   font-size: 13px;
-  font-family: 'arita-light';
+  font-family: 'NotoSans-bold';
 }
 
 .item_list_wrap .hover_btn_wrap a:nth-child(1) {
+  color: #001931;
   float: left;
   display: block;
   width: 50%;
@@ -3490,7 +3491,7 @@ label.mini_text {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background: red;
+  background: url("../img/itemlist/product_list_detail_view.svg");
 }
 
 .item_list_wrap .hover_btn_wrap a:nth-child(2) {
@@ -3507,7 +3508,7 @@ label.mini_text {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background: red;
+  background: url("../img/itemlist/product_list_add.svg");
 }
 
 .item_list_wrap .item_desc_zone {

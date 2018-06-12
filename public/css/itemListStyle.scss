@@ -76,10 +76,10 @@ $mainColor :#001931;
       background: none;
 
       &.open{
-        background: url('../img/minus.png');
+        background: url('../img/itemlist/product_list_close.svg');
       }
       &.close{
-        background: url('../img/plus.png');
+        background: url('../img/itemlist/product_list_spread.svg');
       }
     }
   }
@@ -177,10 +177,11 @@ $mainColor :#001931;
       /* 여긴 왜 135픽셀이 아닌 270px인가... 확인 필요.*/
       text-decoration: none;
       font-size: 13px;
-      font-family: 'arita-light';
+      font-family: 'NotoSans-bold';
 
     }
     a:nth-child(1){
+      color:#001931;
       float: left;
       display: block;
       width: 50%;
@@ -193,7 +194,7 @@ $mainColor :#001931;
         display: inline-block;
         width: 40px;
         height: 40px;
-        background: red;
+        background: url("../img/itemlist/product_list_detail_view.svg");
       }
     }
 
@@ -210,7 +211,7 @@ $mainColor :#001931;
         display: inline-block;
         width: 40px;
         height: 40px;
-        background: red;
+        background: url("../img/itemlist/product_list_add.svg");
       }
     }
   }
