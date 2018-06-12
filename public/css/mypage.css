@@ -152,7 +152,7 @@ i{font-style:normal}
 .tbl-buy tbody td.l, .tbl-buy tbody th.l{text-align:left;padding:10px 10px 10px 10px}
 .tbl-buy tbody tr td:first-child{font-weight:700;}
 .tbl-buy tbody tr:last-child td{border-bottom:none;}
-.tbl-buy tbody .detail-btn{display:inline-block; vertical-align:top;background:url(../img/content/detail-ico.jpg) no-repeat center center; width:26px ;height:33px;}
+.tbl-buy tbody .detail-btn { display:inline-block; vertical-align:top;background:url(../img/content/detail-ico.jpg) no-repeat center center; width:26px ;height:33px;}
 
 .tbl-buy .product{ min-height:127px; padding-left:185px; position:Relative;}
 .tbl-buy .product .img{position:Absolute; left:0; top:0; width:155px; height:127px; background:#f0f0f0}
@@ -209,11 +209,17 @@ i{font-style:normal}
   background: tomato;
   left:0;
 }
+
+/* 
+delete 버튼과 detail의버튼을 바꿔줍니다.
+순서가 바뀌었어요... 
+*/
 .vitamin-like .list .con .btns .delete-btn{
   height: 50%;
   width: 50%;
   right:0;
-  top:0;
+  /*top:0;*/
+  top:53px;
   line-height: 53px;
   font-size: 14px;
 }
@@ -221,35 +227,52 @@ i{font-style:normal}
   height: 50%;
   width: 50%;
   right:0;
-  top:53px;
+  /*top:53px;*/
+  top:0px;
   font-size: 14px;
 }
 
 
-.delete-btn .icon,.detail-btn .icon{
+/* .delete-btn .icon,.detail-btn .icon{
   margin-top: 14px;
   display: inline-block;
   width: 25px;
   height: 25px;
   background: red;
-}
+} */
 
 /* hover icon */
 .delete-btn .icon{
-
+  margin-top: 14px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background:url("../img/mainimg/main_hover_trash.svg");
 }
 
 .detail-btn .icon{
-
+  margin-top: 14px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url("../img/mainimg/main_hover_detail.svg");
 }
 
+/* btn 상세정보 및 삭제하기 관련된 부분*/
+.vitamin-like .list .con .btns .delete-btn{background:#ffffff; }
+.vitamin-like .list .con .btns .detail-btn{background:#ffffff; }
 
-.vitamin-like .list .con .btns .delete-btn{background:#f0f0f0; }
-.vitamin-like .list .con .btns .detail-btn{background:#c4c4c4; }
-
-.vitamin-like .list .con .img:hover .pick-btn,
+.vitamin-like .list .con .img:hover .pick-btn{ opacity: 1;}
 .vitamin-like .list .con .img:hover .delete-btn,
-.vitamin-like .list .con .img:hover .detail-btn{opacity:1;}
+.vitamin-like .list .con .img:hover .detail-btn{ background: #ffffff; opacity:1;}
+
+.vitamin-like .list .con .img .detail-btn:hover {
+  background: #c4c4c4;
+}
+
+.vitamin-like .list .con .img .delete-btn:hover {
+  background: #c4c4c4;
+}
 
 .vitamin-like .list .con .txt{text-align:center;display:block;padding-top:10px;}
 .vitamin-like .list .con .tit{font-size:15px; font-family: "myriad-regular"; color:#000 ; line-height:150%;}
@@ -308,7 +331,7 @@ i{font-style:normal}
 .vitamin-list .list .item a:first-child{margin-bottom:11px;}
 .vitamin-list .list a{display:block;text-decoration:none;width:148px; height:92px;  line-height:92px;text-align:center; font-weight:700; font-size:40px; color:#fff;-webkit-transition: all 0.3s ease-out;-moz-transition: all 0.3s ease-out;-o-transition: all 0.3s ease-out;transition: all 0.3s ease-out;}
 .vitamin-list .list a.bg01{background:#001931;}
-.vitamin-list .list a.bg02{background:#fddb87;}
+.vitamin-list .list a.bg02{background:#faf0e6;}
 
 .vitamin-list .list a:hover{box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2) ; -webkit-box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2)  ; -moz-box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2)  ; }
 .vitamin-list .list a.bg01:hover{ color:#001931; background:#fff;}
